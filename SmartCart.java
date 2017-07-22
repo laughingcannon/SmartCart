@@ -9,7 +9,7 @@ public class Item
 	int top;
 	int total;
 
-	Item()
+	Item()				//Inititalize our items and prices
 	{
 	items = { "RIBBON PAKODA", "THENKUZHAL","ONION PAKODA", "THATTU VADAI", "MURUKKU", "BONDA", "BOMBAY MIXTURE"};
 	prices = {20,25,25,20,30,25,40};
@@ -17,7 +17,7 @@ public class Item
 	total = 0;
 	}
 
-	void disp()
+	void disp()			//Display menu
 	{	
 		for(int i=0;i<top;++i)
 		{
