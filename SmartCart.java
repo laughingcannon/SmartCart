@@ -25,7 +25,7 @@ public class Item
 		}
 	}
 
-	void compute(int ch, int qty)
+	void compute(int ch, int qty)	//For calculating the total price
 	{
 		if(ch>(top+1))
 			System.out.println("Wrong choice!");
